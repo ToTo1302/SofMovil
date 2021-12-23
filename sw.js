@@ -23,8 +23,8 @@ const APP_SHELL_INMUTABLE = [
     'https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css',
     'https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js',
     'https://unpkg.com/onsenui/js/onsenui.min.js',
-    '/css/animate.css',
-    '/js/libs/jquery.js'
+    'css/animate.css',
+    'js/libs/jquery.js'
 ];
 
 
