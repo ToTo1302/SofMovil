@@ -1,11 +1,11 @@
 {
-    "short_name": "SofTec",
+    "short_name": "SofTV Técnicos",
     "name": "Softv Técnicos",
     "description": "Aplicación de control para los técnicos",
     "start_url": "index.html",
     "theme_color": "#0296bd",
     "background_color": "#0296bd",
-    "display": "standalone",
+    "display": "fullscreen",
     "orientation": "portrait",
     "icons": [
         {
