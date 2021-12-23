@@ -1,0 +1,95 @@
+<ons-page>
+    <style>
+        .progress-bar {
+            height: 10px;
+            background-color: #c0f7fe;
+            border-radius: 5%;
+        }
+
+        .progress-bar__primary,
+        .progress-bar--material__primary {
+            background-color: #0277bd;
+        }
+
+        .progress-bar__secondary,
+        .progress-bar--material__secondary {
+            background-color: #014771;
+        }
+    </style>
+    <ons-toolbar>
+        <div class="left">
+            <ons-toolbar-button onclick="fn.open()">
+                <ons-icon icon="md-menu"></ons-icon>
+            </ons-toolbar-button>
+        </div>
+        <div class="center">
+            Inicio
+        </div>
+        <div class="right">
+            <img class="mx-3" src="../../img/logos/demo/demo.png" alt="Logo" style="height: 80%;">
+        </div>
+    </ons-toolbar>
+    <ons-col>
+        <ons-row>
+            <ons-col>
+                <ons-card>
+                    <div class="title">
+                        Ordenes
+                    </div>
+                    <hr>
+                    <div class="content">
+                        <div>
+                            <p>Pendientes 15/15</p>
+                            <ons-progress-bar value="10"></ons-progress-bar>
+                            <br>
+                            <p>Ejecutadas</p>
+                            <ons-progress-bar value="20"></ons-progress-bar>
+                            <br>
+                            <p>Visita</p>
+                            <ons-progress-bar value="30"></ons-progress-bar>
+                        </div>
+                    </div>
+                </ons-card>
+            </ons-col>
+            <ons-col>
+                <ons-card>
+                    <div class="title">
+                        Reportes
+                    </div>
+                    <hr>
+                    <div class="content">
+                        <div>
+                            <p>Pendientes</p>
+                            <ons-progress-bar value="100"></ons-progress-bar><br>
+                            <p>Ejecutadas</p>
+                            <ons-progress-bar value="5"></ons-progress-bar><br>
+                            <p>Visita</p>
+                            <ons-progress-bar value="20"></ons-progress-bar>
+                        </div>
+                    </div>
+                </ons-card>
+            </ons-col>
+        </ons-row>
+        <ons-row>
+            <ons-col>
+                <ons-card>
+                    <div class="content">
+                        <div>
+                            <h3>Proxímo trabajo:</h3>
+                            <p><b>Tipo de trabajo:</b></p> 
+                            <p><b>Contrato:</b></p> 
+                            <p><b>Hora:</b></p>
+                            <hr>
+                            <h3>Dirección:</h3>
+                            <p><b>Calle:</b></p> 
+                            <p><b>Número:</b></p> 
+                            <p><b>Colonia:</b></p> 
+                        </div>
+                    </div>
+                </ons-card>
+            </ons-col>
+        </ons-row>
+    </ons-col>
+
+
+</ons-page>
