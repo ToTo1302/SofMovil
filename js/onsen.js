@@ -39,7 +39,7 @@ function toggleToast() {
 }
 
 function log() {
-    window.location.href = "/pages/log.html";
+    window.location.href = "SofMovil/pages/log.html";
 }
 
 
