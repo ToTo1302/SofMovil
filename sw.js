@@ -7,11 +7,11 @@ const INMUTABLE_CACHE = 'inmutable-v1';
 
 const APP_SHELL = [
     //'/',
-    '/index.html',
-    '/css/style.css',
-    '/css/index-css.css',
-    '/js/app.js',
-    '/js/onsen.js'
+    'index.html',
+    'css/style.css',
+    'css/index-css.css',
+    'js/app.js',
+    'js/onsen.js'
 ];
 
 const APP_SHELL_INMUTABLE = [
